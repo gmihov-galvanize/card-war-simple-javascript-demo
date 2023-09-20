@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="heading text-center">Card War</div>
+
+    <div class=""><button class="draw-button btn btn-outline-warning btn-lg px-5">DRAW</button></div>
+    <div class="row">
+      <!-- extra padding -->
+      <div class="col-1"></div>
+
+      <!-- card field - left -->
+      <div class="col-4 m-5">
+
+        <!-- card element   -->
+        <div class="card d-none">
+          <div class="top">
+            <span>
+              &#9829
+            </span>
+          </div>
+          <div class="middle">
+            <strong class="number">2</strong>
+          </div>
+          <div class="bottom">
+            <span>
+              &#9829
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- stats field -->
+      <div class="stats col m-5">
+        <div class="best">
+          <h3>Best Score</h3>
+          <div class="best-score"></div>
+        </div>
+        <div class="most">
+          <h3>Most Played</h3>
+          <div class="most-played"></div>
+        </div>
+        <div class="scores">
+          <h3>Scores</h3>
+          <ul class="scoreList"></ul>
+        </div>
+      </div>
+
+      <!-- extra padding -->
+      <div class="col-1"></div>
+    </div>
+  </div>
+ 
+  <script src="./index.js"></script>
+</body>
+
+</html>
